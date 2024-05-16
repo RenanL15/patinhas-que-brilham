@@ -208,8 +208,9 @@ export default function Home() {
             Animais disponíveis para adoção
           </h2>
           <div className="flex flex-wrap justify-center gap-20">
-            {pets.map((e) => (
+            {pets.map((e, i) => (
               <div
+                key={i}
                 className="
               text-center
               mt-12
@@ -370,8 +371,9 @@ export default function Home() {
             Animais já adotados
           </h2>
           <div className="flex flex-wrap justify-center gap-20">
-            {adoptedPets.map((e) => (
+            {adoptedPets.map((e, i) => (
               <div
+                key={i}
                 className="
                 text-center
                 mt-12
@@ -424,8 +426,9 @@ export default function Home() {
             Nossa equipe
           </h2>
           <div className="flex flex-wrap justify-center gap-20">
-            {team.map((e) => (
+            {team.map((e, i) => (
               <div
+                key={i}
                 className="
               flex
               flex-col
