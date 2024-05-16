@@ -452,7 +452,7 @@ export default function Home() {
                   width={180}
                   className="border-[6px] border-white shadow-lg h-[240px]"
                 />
-                <h3 className="text-xl font-bold">{e.name}</h3>
+                <h3 className="text-xl font-bold text-center">{e.name}</h3>
                 <p className="text-lg">{e.role}</p>
               </div>
             ))}
