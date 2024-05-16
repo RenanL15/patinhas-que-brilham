@@ -6,7 +6,11 @@ import CatHeart from "@/assets/images/cat-heart.gif";
 import CatPlaying from "@/assets/images/cat-playing.gif";
 import Lula from "@/assets/images/billy.jpg";
 import Janja from "@/assets/images/janja.jpg";
+
 import BrunaPic from "@/assets/images/bruna.png";
+import JuliaPic from "@/assets/images/julia.png";
+import IsabellePic from "@/assets/images/isabelle.png";
+
 import { Galada } from "next/font/google";
 
 // Icons
@@ -88,33 +92,33 @@ const adoptedPets = [
 
 const team = [
   {
-    name: "Brunaah",
-    role: "Artista",
+    name: "Bruna",
+    role: "Web Design",
     image: BrunaPic,
   },
   {
-    name: "Brunaah",
-    role: "Artista",
+    name: "Isabelle",
+    role: "Web Design",
+    image: IsabellePic,
+  },
+  {
+    name: "Julia",
+    role: "Web Design",
+    image: JuliaPic,
+  },
+  {
+    name: "Bruna",
+    role: "Web Design",
     image: BrunaPic,
   },
   {
-    name: "Brunaah",
-    role: "Artista",
+    name: "Bruna",
+    role: "Web Design",
     image: BrunaPic,
   },
   {
-    name: "Brunaah",
-    role: "Artista",
-    image: BrunaPic,
-  },
-  {
-    name: "Brunaah",
-    role: "Artista",
-    image: BrunaPic,
-  },
-  {
-    name: "Brunaah",
-    role: "Artista",
+    name: "Bruna",
+    role: "Web Design",
     image: BrunaPic,
   },
 ];
