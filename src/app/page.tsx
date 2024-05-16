@@ -7,9 +7,13 @@ import CatPlaying from "@/assets/images/cat-playing.gif";
 import Lula from "@/assets/images/billy.jpg";
 import Janja from "@/assets/images/janja.jpg";
 
+// Photos
 import BrunaPic from "@/assets/images/bruna.png";
 import JuliaPic from "@/assets/images/julia.png";
 import IsabellePic from "@/assets/images/isabelle.png";
+import RenanPic from "@/assets/images/renan.png";
+import GiovannaPic from "@/assets/images/giovanna.jpg";
+import DaviPic from "@/assets/images/davi.png";
 
 import { Galada } from "next/font/google";
 
@@ -25,11 +29,9 @@ import TowelIcon from "@/assets/images/icons/towel-icon.webp";
 
 import Link from "next/link";
 import {
-  FaEnvelope,
   FaFacebook,
   FaInstagram,
   FaMapPin,
-  FaPhone,
   FaPhoneAlt,
   FaRegEnvelope,
 } from "react-icons/fa";
@@ -97,29 +99,29 @@ const team = [
     image: BrunaPic,
   },
   {
-    name: "Isabelle",
+    name: "Isabelle Maluza",
     role: "Web Design",
     image: IsabellePic,
   },
   {
-    name: "Julia",
+    name: "Julia Rodrigues",
     role: "Web Design",
     image: JuliaPic,
   },
   {
-    name: "Bruna",
+    name: "Giovanna Melgares",
     role: "Web Design",
-    image: BrunaPic,
+    image: GiovannaPic,
   },
   {
-    name: "Bruna",
+    name: "Renan Almeida",
     role: "Web Design",
-    image: BrunaPic,
+    image: RenanPic,
   },
   {
-    name: "Bruna",
+    name: "Davi Pimentel",
     role: "Web Design",
-    image: BrunaPic,
+    image: DaviPic,
   },
 ];
 
@@ -213,7 +215,7 @@ export default function Home() {
             src={CatGif}
             alt=""
             width={140}
-            className="absolute -top-[3.5rem] -right-[2rem] -z-10"
+            className="absolute -top-[4.5rem] -right-[2rem] -z-10"
           />
         </section>
         <div id="pets"></div>
@@ -272,7 +274,7 @@ export default function Home() {
           <ol className="flex justify-center flex-wrap gap-24 max-sm:gap-8">
             <li className="mt-10 text-lg cursor-pointer duration-200 hover:-translate-y-2">
               <Image
-                src={DogFoodIcon}
+                src={PawIcon}
                 alt="Logo ração"
                 width={80}
                 height={80}
@@ -448,7 +450,7 @@ export default function Home() {
                   src={e.image}
                   alt="Pet image"
                   width={180}
-                  className="border-[6px] border-white shadow-lg h-[15rem]"
+                  className="border-[6px] border-white shadow-lg h-[240px]"
                 />
                 <h3 className="text-xl font-bold">{e.name}</h3>
                 <p className="text-lg">{e.role}</p>
