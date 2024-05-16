@@ -94,7 +94,7 @@ const adoptedPets = [
 
 const team = [
   {
-    name: "Bruna",
+    name: "Bruna de Araujo",
     role: "Web Design",
     image: BrunaPic,
   },
