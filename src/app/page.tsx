@@ -213,7 +213,7 @@ export default function Home() {
             src={CatGif}
             alt=""
             width={140}
-            className="absolute -top-[3rem] -right-[2rem] -z-10"
+            className="absolute -top-[3.5rem] -right-[2rem] -z-10"
           />
         </section>
         <div id="pets"></div>
