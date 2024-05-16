@@ -4,7 +4,7 @@ import PQBBanner from "@/assets/images/anuncioPatinhasqBrilham.png";
 import CatGif from "@/assets/images/lovely-cat.gif";
 import Lula from "@/assets/images/billy.jpg";
 import Janja from "@/assets/images/janja.jpg";
-import PQPBg from "@/assets/images/pqb-bg.png";
+import BrunaPic from "@/assets/images/bruna.png";
 import { Galada } from "next/font/google";
 import Link from "next/link";
 
@@ -66,34 +66,34 @@ const adoptedPets = [
 
 const team = [
   {
-    name: "John Doe",
-    age: "18 years",
-    image: Janja,
+    name: "Brunaah",
+    role: "Artista",
+    image: BrunaPic,
   },
   {
-    name: "John Doe",
-    age: "18 years",
-    image: Janja,
+    name: "Brunaah",
+    role: "Artista",
+    image: BrunaPic,
   },
   {
-    name: "John Doe",
-    age: "18 years",
-    image: Janja,
+    name: "Brunaah",
+    role: "Artista",
+    image: BrunaPic,
   },
   {
-    name: "John Doe",
-    age: "18 years",
-    image: Janja,
+    name: "Brunaah",
+    role: "Artista",
+    image: BrunaPic,
   },
   {
-    name: "John Doe",
-    age: "18 years",
-    image: Janja,
+    name: "Brunaah",
+    role: "Artista",
+    image: BrunaPic,
   },
   {
-    name: "John Doe",
-    age: "18 years",
-    image: Janja,
+    name: "Brunaah",
+    role: "Artista",
+    image: BrunaPic,
   },
 ];
 
@@ -125,31 +125,31 @@ export default function Home() {
           />
           <ul className="flex justify-center items-center text-white font-light max-md:hidden">
             <li className="bg-white rounded-full mx-7">
-              <Image src={PQBLogo} alt="Logo" width={60} />
+              <Image src={PQBLogo} alt="Logo" width={50} />
             </li>
             {/* <li className="text-xl py-7"><Link href="#">Página</Link></li> */}
-            <li className="text-xl py-7">
+            <li className="text-md py-7 border-b-2 border-black hover:border-white">
               <Link href="#sobre" className="p-7 hover:bg-neutral-800">
                 Sobre
               </Link>
             </li>
-            <li className="text-xl py-7">
+            <li className="text-md py-7 border-b-2 border-black hover:border-white">
               <Link href="#pets" className="p-7 hover:bg-neutral-800">
                 Pets
               </Link>
             </li>
-            <li className="text-xl py-7">
+            <li className="text-md py-7 border-b-2 border-black hover:border-white">
               <Link href="#como-ajudar" className="p-7 hover:bg-neutral-800">
                 Como ajudar
               </Link>
             </li>
-            <li className="text-xl py-7">
+            <li className="text-md py-7 border-b-2 border-black hover:border-white">
               <Link href="#adocoes" className="p-7 hover:bg-neutral-800">
                 Adoções
               </Link>
             </li>
-            <li className="text-xl py-7">
-              <Link href="#sobre" className="p-7 hover:bg-neutral-800">
+            <li className="text-md py-7 border-b-2 border-black hover:border-white">
+              <Link href="#equipe" className="p-7 hover:bg-neutral-800">
                 Equipe
               </Link>
             </li>
@@ -205,14 +205,17 @@ export default function Home() {
               items-center
               mt-12
               gap-2
-              shadow-2xl
-              bg-primary
+              shadow-lg
+              border-2
+              !bg-[url(../assets/images/card-bg.png)]
+              bg-cover
+              border-primary
               py-6
               px-10
               rounded-lg
-              text-white
               hover:-translate-y-2
               hover:brightness-110
+              hover:bg-orange-100
               duration-200
               ">
                 <Image
@@ -398,6 +401,7 @@ export default function Home() {
               className="absolute top-0 left-0 w-full h-full lg:static lg:w-[1000px] lg:h-[500px] mx-auto"></iframe>
           </div>
         </section>
+        <div id="equipe"></div>
         <section className="relative max-w-[70rem] mt-32 border border-primary border-opacity-60 rounded-xl p-10">
           <h2
             className={`${fontGalada.className} absolute -top-4 left-auto bg-white px-4 text-4xl text-primary`}
@@ -427,10 +431,10 @@ export default function Home() {
                   src={e.image}
                   alt="Pet image"
                   width={180}
-                  className="border-[6px] shadow-2xl h-[15rem]"
+                  className="border-[6px] border-white shadow-lg h-[15rem]"
                 />
                 <h3 className="text-xl font-bold">{e.name}</h3>
-                <p className="text-lg">{e.age}</p>
+                <p className="text-lg">{e.role}</p>
               </div>
             ))}
           </div>
