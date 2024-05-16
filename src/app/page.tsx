@@ -278,9 +278,7 @@ export default function Home() {
             </li>
             <li className="mt-10 text-lg cursor-pointer duration-200 hover:-translate-y-2">
               <Image
-                src={
-                  "https://cdn.discordapp.com/attachments/1240384593652355103/1240384683208872168/image.png?ex=66465dc1&is=66450c41&hm=ab03a89fb3b4136a3b76d94e31c5164bc7f8c2a1f0bc6231a4c1e2d85b6ae0b5&"
-                }
+                src={InstaIcon}
                 alt="Logo pix"
                 width={80}
                 height={80}
@@ -341,9 +339,7 @@ export default function Home() {
             </li>
             <li className="mt-10 text-lg cursor-pointer duration-200 hover:-translate-y-2">
               <Image
-                src={
-                  "https://cdn.discordapp.com/attachments/1240384593652355103/1240384963669397575/image.png?ex=66465e04&is=66450c84&hm=80f3406be2d700a04ca4e190b3752f8e85a536ae77d5cb6228cd81966cb63078&"
-                }
+                src={TowelIcon}
                 alt="Logo pix"
                 width={80}
                 height={80}
