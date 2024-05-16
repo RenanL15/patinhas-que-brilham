@@ -8,6 +8,17 @@ import Lula from "@/assets/images/billy.jpg";
 import Janja from "@/assets/images/janja.jpg";
 import BrunaPic from "@/assets/images/bruna.png";
 import { Galada } from "next/font/google";
+
+// Icons
+import DogFoodIcon from "@/assets/images/icons/dog-food-icon.webp";
+import DotsIcon from "@/assets/images/icons/dots-icon.webp";
+import InstaIcon from "@/assets/images/icons/insta-icon.webp";
+import PawIcon from "@/assets/images/icons/paw-icon.webp";
+import PixIcon from "@/assets/images/icons/pix-icon.webp";
+import RemedyIcon from "@/assets/images/icons/remedy-icon.webp";
+import SoapIcon from "@/assets/images/icons/soap-icon.webp";
+import TowelIcon from "@/assets/images/icons/towel-icon.webp";
+
 import Link from "next/link";
 import {
   FaEnvelope,
@@ -257,9 +268,7 @@ export default function Home() {
           <ol className="flex justify-center flex-wrap gap-24 max-sm:gap-8">
             <li className="mt-10 text-lg cursor-pointer duration-200 hover:-translate-y-2">
               <Image
-                src={
-                  "https://cdn.discordapp.com/attachments/1240384593652355103/1240384611540799640/image.png?ex=66465db0&is=66450c30&hm=4301f6c9bc7c1120c44a36182fb9fd01d7f29a3ad6b4d72c50ee0d24a1b104a2&"
-                }
+                src={DogFoodIcon}
                 alt="Logo ração"
                 width={80}
                 height={80}
@@ -289,9 +298,7 @@ export default function Home() {
           <ol className="flex justify-center flex-wrap gap-24 max-sm:gap-8">
             <li className="mt-10 text-lg cursor-pointer duration-200 hover:-translate-y-2">
               <Image
-                src={
-                  "https://cdn.discordapp.com/attachments/1240384593652355103/1240384722920542238/image.png?ex=66465dcb&is=66450c4b&hm=a9e31b9bea577cc227adcba388ab99e67e9e33277f700db01b3a0991f0c36686&"
-                }
+                src={PixIcon}
                 alt="Logo pix"
                 width={80}
                 height={80}
@@ -301,9 +308,7 @@ export default function Home() {
             </li>
             <li className="mt-10 text-lg cursor-pointer duration-200 hover:-translate-y-2">
               <Image
-                src={
-                  "https://cdn.discordapp.com/attachments/1240384593652355103/1240384767287889931/image.png?ex=66465dd5&is=66450c55&hm=0ef9a58281b6e623c172ef83fb5a171b4fe13dda4aaba0ded39a2d138f3f5de5&"
-                }
+                src={DogFoodIcon}
                 alt="Logo ração"
                 width={80}
                 height={80}
@@ -313,9 +318,7 @@ export default function Home() {
             </li>
             <li className="mt-10 text-lg cursor-pointer duration-200 hover:-translate-y-2">
               <Image
-                src={
-                  "https://cdn.discordapp.com/attachments/1240384593652355103/1240384797201924116/image.png?ex=66465ddc&is=66450c5c&hm=7947ac27d7da04870a050095227eb34f586fd3489f52886d65f400975b2093d4&"
-                }
+                src={RemedyIcon}
                 alt="Logo pix"
                 width={80}
                 height={80}
@@ -325,9 +328,7 @@ export default function Home() {
             </li>
             <li className="mt-10 text-lg cursor-pointer duration-200 hover:-translate-y-2">
               <Image
-                src={
-                  "https://cdn.discordapp.com/attachments/1240384593652355103/1240384879959740426/image.png?ex=66465df0&is=66450c70&hm=8ad23a5c9128917edd56e5e0d224a435a35593655e3f6742f47f369c62da781a&"
-                }
+                src={SoapIcon}
                 alt="Logo ração"
                 width={80}
                 height={80}
@@ -352,9 +353,7 @@ export default function Home() {
             </li>
             <li className="mt-10 text-lg cursor-pointer duration-200 hover:-translate-y-2">
               <Image
-                src={
-                  "https://cdn.discordapp.com/attachments/1240384593652355103/1240384999484821504/image.png?ex=66465e0d&is=66450c8d&hm=6846287ded9a375ebf38f255ebdb3dfa99f0f2c123fa3220f90ed432fb39d3cb&"
-                }
+                src={DotsIcon}
                 alt="Logo ração"
                 width={80}
                 height={80}
@@ -430,20 +429,20 @@ export default function Home() {
               <div
                 key={i}
                 className="
-              flex
-              flex-col
-              items-center
-              mt-12
-              gap-5
-              shadow-xl
-              bg-yellow
-              pt-6
-              pb-12
-              px-10
-              rounded-lg
-              hover:-translate-y-2
-              hover:brightness-105
-              duration-200
+                flex
+                flex-col
+                items-center
+                mt-12
+                gap-5
+                shadow-xl
+                bg-yellow
+                pt-6
+                pb-12
+                px-10
+                rounded-lg
+                hover:-translate-y-2
+                hover:brightness-105
+                duration-200
               ">
                 <Image
                   src={e.image}
