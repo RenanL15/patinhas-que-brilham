@@ -2,11 +2,22 @@ import Image from "next/image";
 import PQBLogo from "@/assets/images/pqb-logo.png";
 import PQBBanner from "@/assets/images/anuncioPatinhasqBrilham.png";
 import CatGif from "@/assets/images/lovely-cat.gif";
+import CatHeart from "@/assets/images/cat-heart.gif";
+import CatPlaying from "@/assets/images/cat-playing.gif";
 import Lula from "@/assets/images/billy.jpg";
 import Janja from "@/assets/images/janja.jpg";
 import BrunaPic from "@/assets/images/bruna.png";
 import { Galada } from "next/font/google";
 import Link from "next/link";
+import {
+  FaEnvelope,
+  FaFacebook,
+  FaInstagram,
+  FaMapPin,
+  FaPhone,
+  FaPhoneAlt,
+  FaRegEnvelope,
+} from "react-icons/fa";
 
 const fontGalada = Galada({ weight: "400", subsets: ["latin"] });
 
@@ -200,23 +211,18 @@ export default function Home() {
             {pets.map((e) => (
               <div
                 className="
-              flex
-              flex-col
-              items-center
+              text-center
               mt-12
-              gap-2
               shadow-lg
               border-2
               !bg-[url(../assets/images/card-bg.png)]
-              bg-cover
               border-primary
               py-6
               px-10
               rounded-lg
               hover:-translate-y-2
               hover:brightness-110
-              hover:bg-orange-100
-              duration-200
+              duration-300
               ">
                 <Image
                   src={e.image}
@@ -224,10 +230,10 @@ export default function Home() {
                   width={180}
                   className="rounded-full border-4"
                 />
-                <h3 className="text-xl font-bold">{e.name}</h3>
-                <p className="text-lg">{e.age}</p>
-                <p className="text-lg">{e.cast}</p>
-                <button className="bg-yellow py-1 text-lg font-bold text-black rounded-full w-full">
+                <h3 className="text-xl mt-2 font-bold">{e.name}</h3>
+                <p className="text-lg mt-2">{e.age}</p>
+                <p className="text-lg mt-2">{e.cast}</p>
+                <button className="bg-yellow mt-2 py-1 text-lg font-bold text-black rounded-full w-full">
                   Adotar
                 </button>
               </div>
@@ -236,6 +242,12 @@ export default function Home() {
         </section>
         <div id="como-ajudar"></div>
         <section className="relative max-w-[70rem] mt-20 border border-primary border-opacity-60 rounded-xl p-10">
+          <Image
+            src={CatHeart}
+            alt=""
+            width={140}
+            className="absolute -top-[3rem] -right-[3rem]"
+          />
           <h2
             className={`${fontGalada.className} absolute -top-4 left-auto bg-white px-4 text-4xl text-primary`}
             id="sobre">
@@ -361,21 +373,18 @@ export default function Home() {
             {adoptedPets.map((e) => (
               <div
                 className="
-              flex
-              flex-col
-              items-center
-              mt-12
-              gap-2
-              shadow-2xl
-              bg-secondary
-              pt-6
-              pb-12
-              px-10
-              rounded-lg
-              text-white
-              hover:-translate-y-2
-              hover:brightness-110
-              duration-200
+                text-center
+                mt-12
+                shadow-lg
+                border-2
+                !bg-[url(../assets/images/card-bg.png)]
+                border-primary
+                py-6
+                px-10
+                rounded-lg
+                hover:-translate-y-2
+                hover:brightness-110
+                duration-300
               ">
                 <Image
                   src={e.image}
@@ -402,7 +411,13 @@ export default function Home() {
           </div>
         </section>
         <div id="equipe"></div>
-        <section className="relative max-w-[70rem] mt-32 border border-primary border-opacity-60 rounded-xl p-10">
+        <section className="relative max-w-[70rem] mt-32 border border-primary border-opacity-60 rounded-xl p-10 z-10">
+          <Image
+            src={CatPlaying}
+            alt=""
+            width={180}
+            className="absolute -top-[5rem] -right-[3rem] -z-10"
+          />
           <h2
             className={`${fontGalada.className} absolute -top-4 left-auto bg-white px-4 text-4xl text-primary`}
             id="sobre">
@@ -424,7 +439,7 @@ export default function Home() {
               px-10
               rounded-lg
               hover:-translate-y-2
-              hover:brightness-110
+              hover:brightness-105
               duration-200
               ">
                 <Image
@@ -440,12 +455,37 @@ export default function Home() {
           </div>
         </section>
       </main>
-      <footer className="bg-gray py-32">
-        <div>
-          <span>ongpatinhasquebrilham</span>
-          <span>Ong Patinhas que Brilham</span>
-          <span>ongpatinhasquebrilham@gmail.com</span>
+      <footer className="flex justify-center items-center gap-8 border-t-4 border-primary bg-orange-50 py-16">
+        <div className="flex flex-col gap-8">
+          <span>
+            <FaInstagram className="inline mr-2" />
+            ongpatinhasquebrilham
+          </span>
+          <span>
+            <FaFacebook className="inline mr-2" />
+            Ong Patinhas que Brilham
+          </span>
+          <span>
+            <FaRegEnvelope className="inline mr-2" />
+            ongpatinhasquebrilham@gmail.com
+          </span>
         </div>
+        <div className="flex flex-col gap-8">
+          <span>
+            <FaPhoneAlt className="inline mr-2" />
+            (013) 99656 6970
+          </span>
+          <span>
+            <FaMapPin className="inline mr-2" />
+            R. Carvalho de Mendonça, <br /> 670 - Marapé, Santos - SP, 11070-103
+          </span>
+        </div>
+        <Image
+          src={PQBLogo}
+          alt="Logo"
+          width={200}
+          className="bg-white rounded-full"
+        />
       </footer>
     </>
   );
