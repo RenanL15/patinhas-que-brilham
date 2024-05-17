@@ -267,7 +267,7 @@ export default function Home() {
             className="absolute -top-[3rem] -right-[2.5rem]"
           />
           <h2
-            className={`${fontGalada.className} absolute -top-4 left-auto bg-white px-4 text-4xl text-primary`}
+            className={`${fontGalada.className} absolute -top-4 left-auto bg-white px-4 text-4xl text-primary max-sm:rounded-full max-sm:px-0`}
             id="sobre">
             Como ajudar?
           </h2>
@@ -296,7 +296,8 @@ export default function Home() {
               </p>
             </li>
           </ol>
-          <h2 className={`${fontGalada.className} text-3xl mt-10 text-primary`}>
+          <h2
+            className={`${fontGalada.className} text-3xl mt-10 text-center text-primary`}>
             Nós aceitamos doações de:
           </h2>
           <ol className="flex justify-center flex-wrap gap-24 max-sm:gap-8">
