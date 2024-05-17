@@ -464,7 +464,7 @@ export default function Home() {
           </div>
         </section>
       </main>
-      <footer className="flex flex-wrap justify-center items-center gap-8 border-t-4 border-primary bg-orange-50 py-16">
+      <footer className="flex flex-wrap justify-center items-center text-white gap-8 border-t-4 bg-black py-16">
         <div className="flex flex-col gap-8">
           <span>
             <FaInstagram className="inline mr-2" />
