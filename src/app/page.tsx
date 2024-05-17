@@ -13,7 +13,7 @@ import JuliaPic from "@/assets/images/julia.png";
 import IsabellePic from "@/assets/images/isabelle.png";
 import RenanPic from "@/assets/images/renan.png";
 import GiovannaPic from "@/assets/images/giovanna.jpg";
-import DaviPic from "@/assets/images/davi.png";
+import DaviPic from "@/assets/images/davi.jpg";
 
 import { Galada } from "next/font/google";
 
@@ -95,32 +95,32 @@ const adoptedPets = [
 const team = [
   {
     name: "Bruna de Araujo",
-    role: "Web Design",
+    role: "Designer",
     image: BrunaPic,
   },
   {
     name: "Isabelle Maluza",
-    role: "Web Design",
+    role: "Designer",
     image: IsabellePic,
   },
   {
     name: "Julia Rodrigues",
-    role: "Web Design",
+    role: "Designer",
     image: JuliaPic,
   },
   {
     name: "Giovanna Melgares",
-    role: "Web Design",
+    role: "Designer",
     image: GiovannaPic,
   },
   {
     name: "Renan Almeida",
-    role: "Web Design",
+    role: "Designer",
     image: RenanPic,
   },
   {
     name: "Davi Pimentel",
-    role: "Web Design",
+    role: "Designer",
     image: DaviPic,
   },
 ];
@@ -263,8 +263,8 @@ export default function Home() {
           <Image
             src={CatHeart}
             alt=""
-            width={140}
-            className="absolute -top-[3rem] -right-[3rem]"
+            width={120}
+            className="absolute -top-[3rem] -right-[2.5rem]"
           />
           <h2
             className={`${fontGalada.className} absolute -top-4 left-auto bg-white px-4 text-4xl text-primary`}
@@ -418,7 +418,7 @@ export default function Home() {
           <Image
             src={CatPlaying}
             alt=""
-            width={180}
+            width={150}
             className="absolute -top-[5rem] -right-[3rem] -z-10"
           />
           <h2
@@ -436,8 +436,11 @@ export default function Home() {
                 items-center
                 mt-12
                 gap-5
-                shadow-xl
-                bg-yellow
+                shadow-2xl
+                !bg-[url(../assets/images/bg-equipe.png)]
+                bg-cover
+                border
+                border-yellow
                 pt-6
                 pb-12
                 px-10
@@ -449,17 +452,18 @@ export default function Home() {
                 <Image
                   src={e.image}
                   alt="Pet image"
-                  width={180}
-                  className="border-[6px] border-white shadow-lg h-[240px]"
+                  className="border-[10px] border-white shadow-2xl h-[240px] min-w-[180px] max-w-[180px]"
                 />
-                <h3 className="text-xl font-bold text-center">{e.name}</h3>
+                <h3 className="text-2xl font-bold text-center font-mono">
+                  {e.name}
+                </h3>
                 <p className="text-lg">{e.role}</p>
               </div>
             ))}
           </div>
         </section>
       </main>
-      <footer className="flex justify-center items-center gap-8 border-t-4 border-primary bg-orange-50 py-16">
+      <footer className="flex flex-wrap justify-center items-center gap-8 border-t-4 border-primary bg-orange-50 py-16">
         <div className="flex flex-col gap-8">
           <span>
             <FaInstagram className="inline mr-2" />
