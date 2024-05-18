@@ -13,7 +13,7 @@ import JuliaPic from "@/assets/images/julia.png";
 import IsabellePic from "@/assets/images/isabelle.png";
 import RenanPic from "@/assets/images/renan.png";
 import GiovannaPic from "@/assets/images/giovanna.jpg";
-import DaviPic from "@/assets/images/davi.jpg";
+import DaviPic from "@/assets/images/davi.png";
 
 import { Galada } from "next/font/google";
 
@@ -128,21 +128,6 @@ const team = [
 export default function Home() {
   return (
     <>
-      {/* <Image
-        src={PQPBg}
-        alt=""
-        style={{
-          objectFit: "cover",
-          zIndex: -10,
-          userSelect: "none",
-          top: 0,
-          opacity: 0.03,
-          filter: "blur(5px)",
-          position: "fixed",
-          width: "100%",
-          height: "100%",
-        }}
-      /> */}
       <header className="fixed top-0 w-full z-20">
         <nav className="bg-black shadow-md max-md:py-4">
           <Image
@@ -197,8 +182,7 @@ export default function Home() {
         <div id="sobre"></div>
         <section className="relative max-w-[50rem] mt-20 border border-primary border-opacity-60 rounded-xl p-10 z-10">
           <h2
-            className={`${fontGalada.className} absolute -top-4 left-auto bg-white px-4 text-4xl text-primary`}
-            id="sobre">
+            className={`${fontGalada.className} absolute -top-4 left-auto bg-white px-4 text-4xl text-primary`}>
             Sobre
           </h2>
           <p className="leading-10 mt-4">
@@ -267,8 +251,7 @@ export default function Home() {
             className="absolute -top-[3rem] -right-[2.5rem]"
           />
           <h2
-            className={`${fontGalada.className} absolute -top-4 left-auto bg-white px-4 text-4xl text-primary max-sm:rounded-full max-sm:px-0`}
-            id="sobre">
+            className={`${fontGalada.className} absolute -top-4 left-auto bg-white px-4 text-4xl text-primary max-sm:rounded-full max-sm:px-0`}>
             Como ajudar?
           </h2>
           <ol className="flex justify-center flex-wrap gap-24 max-sm:gap-8">
@@ -423,8 +406,7 @@ export default function Home() {
             className="absolute -top-[5rem] -right-[3rem] -z-10"
           />
           <h2
-            className={`${fontGalada.className} absolute -top-4 left-auto bg-white px-4 text-4xl text-primary`}
-            id="sobre">
+            className={`${fontGalada.className} absolute -top-4 left-auto bg-white px-4 text-4xl text-primary`}>
             Nossa equipe
           </h2>
           <div className="flex flex-wrap justify-center gap-20">
