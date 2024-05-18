@@ -57,21 +57,9 @@ const pets = [
     cast: "Castrado",
     image: Lula,
   },
-  {
-    name: "Lula",
-    age: "53 anos",
-    cast: "Castrado",
-    image: Lula,
-  },
 ];
 
 const adoptedPets = [
-  {
-    name: "Janja",
-    age: "69 anos",
-    cast: "Não castrado",
-    image: Janja,
-  },
   {
     name: "Janja",
     age: "69 anos",
