@@ -8,12 +8,12 @@ import Lula from "@/assets/images/billy.jpg";
 import Janja from "@/assets/images/janja.jpg";
 
 // Photos
-import BrunaPic from "@/assets/images/bruna.png";
-import JuliaPic from "@/assets/images/julia.png";
-import IsabellePic from "@/assets/images/isabelle.png";
-import RenanPic from "@/assets/images/renan.png";
-import GiovannaPic from "@/assets/images/giovanna.jpg";
-import DaviPic from "@/assets/images/davi.png";
+import BrunaPic from "@/assets/images/photos/bruna.png";
+import JuliaPic from "@/assets/images/photos/julia.png";
+import IsabellePic from "@/assets/images/photos/isabelle.png";
+import RenanPic from "@/assets/images/photos/renan.png";
+import GiovannaPic from "@/assets/images/photos/giovanna.jpg";
+import DaviPic from "@/assets/images/photos/davi.png";
 
 import { Galada } from "next/font/google";
 
@@ -157,7 +157,7 @@ export default function Home() {
           </ul>
         </nav>
       </header>
-      <main className="flex flex-col items-center gap-6 min-h-screen py-32 px-8 max-sm:overflow-x-hidden">
+      <main className="flex flex-col items-center gap-6 py-32 px-8 max-sm:overflow-x-hidden">
         <h1
           className={`${fontGalada.className} text-4xl text-center text-primary drop-shadow-[4px_4px_0px_#00000011]`}>
           ONG - Patinhas que brilham
@@ -381,7 +381,7 @@ export default function Home() {
           </h2>
           <div className="relative w-full max-lg:pb-[56.25%] overflow-hidden mt-10">
             <iframe
-              src="https://www.youtube.com/embed/0tOXxuLcaog"
+              src="https://www.youtube.com/embed/ObONmZopBZQ"
               className="absolute top-0 left-0 w-full h-full lg:static lg:w-[1000px] lg:h-[500px] mx-auto"></iframe>
           </div>
         </section>
