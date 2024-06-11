@@ -22,12 +22,12 @@ export default function Sobre() {
         A nossa missão
       </h2>
       <p className="leading-10 text-justify mt-2">
-        <span className="ml-12"></span> A ONG "Patinhas que Brilham", situada na
-        cidade de Santos, é uma entidade que se iniciou em 2005 e desde então é
-        dedicada a transformar a vida de diversos animais. Na ONG é oferecido um
-        lar temporário para animais necessitados enquanto trabalha
-        incansavelmente para encontrar famílias amorosas e permanentes para
-        eles. A nossa missão é proporcionar uma vida melhor para animais
+        <span className="ml-12"></span> A ONG &quot;Patinhas que Brilham&quot;,
+        situada na cidade de Santos, é uma entidade que se iniciou em 2005 e
+        desde então é dedicada a transformar a vida de diversos animais. Na ONG
+        é oferecido um lar temporário para animais necessitados enquanto
+        trabalha incansavelmente para encontrar famílias amorosas e permanentes
+        para eles. A nossa missão é proporcionar uma vida melhor para animais
         abandonados, oferecendo cuidados médicos, alimentação e muito carinho.
         Além de promover a adoção responsável, a ONG também facilita doações
         financeiras e de suprimentos, garantindo que todos os animais recebam a
@@ -38,10 +38,10 @@ export default function Sobre() {
         animais.
       </p>
       <p className="leading-10 text-justify mt-2">
-        <span className="ml-12 "></span> Como Ajudar? Por sermos uma entidade
+        <span className="ml-12"></span> Como Ajudar? Por sermos uma entidade
         independente estamos sempre em busca de pessoas com o mesmo objetivo que
         o nosso, ajudar e amar os animais, por isso existem várias maneiras que
-        você pode apoiar "Patinhas que Brilham":
+        você pode apoiar &quot;Patinhas que Brilham&quot;:
       </p>
       <ul className="list-disc ml-16">
         <li className="leading-10 text-justify mt-2">
@@ -75,8 +75,8 @@ export default function Sobre() {
       <p className="leading-10 text-justify mt-2">
         <span className="ml-12 "></span> Por fim, adotar e cuidar de um animal é
         um ato de amor que transforma vidas e por isso convidamos você a
-        conhecer o espaço da nossa ONG "Patinhas que Brilham" e fazer parte
-        dessa missão!
+        conhecer o espaço da nossa ONG &quot;Patinhas que Brilham&quot; e fazer
+        parte dessa missão!
       </p>
     </section>
   );
