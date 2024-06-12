@@ -30,20 +30,20 @@ const fontGalada = Galada({ weight: "400", subsets: ["latin"] });
 
 const pets = [
   {
-    name: "Lula",
-    age: "53 anos",
+    name: "Whiskers",
+    age: "3 anos",
     cast: "Castrado",
     image: Lula,
   },
   {
-    name: "Lula",
-    age: "53 anos",
+    name: "Luna",
+    age: "8 meses",
     cast: "Castrado",
     image: Lula,
   },
   {
-    name: "Lula",
-    age: "53 anos",
+    name: "Oliver",
+    age: "12 anos",
     cast: "Castrado",
     image: Lula,
   },
@@ -51,20 +51,20 @@ const pets = [
 
 const adoptedPets = [
   {
-    name: "Janja",
-    age: "69 anos",
+    name: "Mia",
+    age: "5 anos",
     cast: "Não castrado",
     image: Janja,
   },
   {
-    name: "Janja",
-    age: "69 anos",
+    name: "Simba",
+    age: "1 ano",
     cast: "Não castrado",
     image: Janja,
   },
   {
-    name: "Janja",
-    age: "69 anos",
+    name: "Cleo",
+    age: "7 anos",
     cast: "Não castrado",
     image: Janja,
   },
@@ -73,12 +73,12 @@ const adoptedPets = [
 const team = [
   {
     name: "Bruna de Araujo",
-    role: "Designer",
+    role: "Escritora",
     image: BrunaPic,
   },
   {
     name: "Isabelle Maluza",
-    role: "Designer",
+    role: "Produtora",
     image: IsabellePic,
   },
   {
@@ -88,17 +88,17 @@ const team = [
   },
   {
     name: "Giovanna Melgares",
-    role: "Designer",
+    role: "Produtora",
     image: GiovannaPic,
   },
   {
     name: "Renan Almeida",
-    role: "Designer",
+    role: "Desenvolvedor",
     image: RenanPic,
   },
   {
     name: "Davi Pimentel",
-    role: "Designer",
+    role: "Desenvolvedor",
     image: DaviPic,
   },
 ];
