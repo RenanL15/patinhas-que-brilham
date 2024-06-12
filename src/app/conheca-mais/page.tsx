@@ -8,13 +8,13 @@ export default function Sobre() {
   return (
     <section className="max-w-[65rem]">
       <h1
-        className={`${fontGalada.className} text-center text-4xl mb-12 text-primary drop-shadow-[4px_4px_0px_#00000011]`}>
-        Sobre nós
+        className={`${fontGalada.className} text-center text-5xl mb-24 text-primary drop-shadow-[4px_4px_0px_#00000011]`}>
+        Um pouco mais sobre nós
       </h1>
       <Image
         src={ImagemTexto}
         alt="Banner da ONG Patinhas Que Brilham"
-        className="rounded-xl float-left mr-6"
+        className="rounded-xl float-left mr-6 max-sm:mb-10"
         width={400}
       />
       <h2
@@ -22,7 +22,7 @@ export default function Sobre() {
         A nossa missão
       </h2>
       <p className="leading-10 text-justify mt-2">
-        <span className="ml-12"></span> A ONG &quot;Patinhas que Brilham&quot;,
+        <span className="ml-12"></span>A ONG &quot;Patinhas que Brilham&quot;,
         situada na cidade de Santos, é uma entidade que se iniciou em 2005 e
         desde então é dedicada a transformar a vida de diversos animais. Na ONG
         é oferecido um lar temporário para animais necessitados enquanto
@@ -37,42 +37,42 @@ export default function Sobre() {
         podem proporcionar um ambiente vibrante e cheio de atividades para os
         animais.
       </p>
-      <p className="leading-10 text-justify mt-2">
+      <p className="leading-10 text-justify mt-5">
         <span className="ml-12"></span> Como Ajudar? Por sermos uma entidade
         independente estamos sempre em busca de pessoas com o mesmo objetivo que
         o nosso, ajudar e amar os animais, por isso existem várias maneiras que
         você pode apoiar &quot;Patinhas que Brilham&quot;:
       </p>
       <ul className="list-disc ml-16">
-        <li className="leading-10 text-justify mt-2">
+        <li className="leading-10 text-justify mt-5">
           Doações Financeiras: Contribuições monetárias ajudam a cobrir custos
           com alimentação, cuidados médicos e manutenção das instalações.
         </li>
-        <li className="leading-10 text-justify mt-2">
+        <li className="leading-10 text-justify mt-5">
           Doações de Suprimentos: Rações, brinquedos, medicamentos e outros
           itens são sempre bem-vindos.
         </li>
-        <li className="leading-10 text-justify mt-2">
+        <li className="leading-10 text-justify mt-5">
           Voluntariado: Oferecer seu tempo para ajudar nas atividades diárias da
           ONG é uma forma valiosa de contribuição.
         </li>
-        <li className="leading-10 text-justify mt-2">
+        <li className="leading-10 text-justify mt-5">
           Adoção: e claro, a Adoção responsável para dar um lar permanente e
           adequado aos animais.
         </li>
       </ul>
-      <p className="leading-10 text-justify mt-2">
+      <p className="leading-10 text-justify mt-5">
         <span className="ml-12 "></span> Nosso infográfico destaca a quantidade
         de animais adotados e comprados no Brasil, como também mostra dados e
         benefícios da adoção ao invés da compra de animais.
       </p>
-      <p className="leading-10 text-justify mt-2">
+      <p className="leading-10 text-justify mt-5">
         <span className="ml-12 "></span> Aqui no site também é possível
         encontrar um vídeo criado por voluntários mostrando quais são os pré
         requisitos da adoção responsável, há dicas e informações relevantes
         antes de adotar seu pet, não deixe de conferir!
       </p>
-      <p className="leading-10 text-justify mt-2">
+      <p className="leading-10 text-justify mt-5">
         <span className="ml-12 "></span> Por fim, adotar e cuidar de um animal é
         um ato de amor que transforma vidas e por isso convidamos você a
         conhecer o espaço da nossa ONG &quot;Patinhas que Brilham&quot; e fazer

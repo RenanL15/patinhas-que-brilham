@@ -3,6 +3,7 @@ import Link from "next/link";
 import PQBLogo from "@/assets/images/pqb-logo.png";
 
 import {
+  FaArrowRight,
   FaFacebook,
   FaInstagram,
   FaMapPin,
@@ -37,12 +38,18 @@ export default function Footer() {
           R. Carvalho de Mendonça, <br /> 670 - Marapé, Santos - SP, 11070-103
         </span>
       </div>
-      <Image
-        src={PQBLogo}
-        alt="Logo"
-        width={200}
-        className="bg-white rounded-full"
-      />
+      <div className="flex flex-col items-center gap-6">
+        <Image
+          src={PQBLogo}
+          alt="Logo"
+          width={200}
+          className="bg-white rounded-full"
+        />
+        <Link href="/conheca-mais">
+          <span className="hover:underline">Conheça mais por aqui</span>
+          <FaArrowRight className="inline ml-2 align-middle" />
+        </Link>
+      </div>
     </footer>
   );
 }

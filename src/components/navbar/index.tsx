@@ -6,12 +6,14 @@ export default function Navbar() {
   return (
     <header className="fixed top-0 w-full z-20">
       <nav className="bg-black shadow-md max-md:py-4">
-        <Image
-          src={PQBLogo}
-          alt="Logo"
-          width={65}
-          className="mx-auto bg-white rounded-full md:hidden"
-        />
+        <Link href="/">
+          <Image
+            src={PQBLogo}
+            alt="Logo"
+            width={65}
+            className="mx-auto bg-white rounded-full md:hidden"
+          />
+        </Link>
         <ul className="flex justify-center items-center text-white font-light max-md:hidden">
           <li className="bg-white rounded-full mx-7">
             <Link href="/">
@@ -45,8 +47,8 @@ export default function Navbar() {
             </Link>
           </li>
           <li className="text-md py-7 border-b-2 border-black hover:border-white">
-            <Link href="/nossa-missao" className="p-7 hover:bg-neutral-800">
-              Nossa missão
+            <Link href="/conheca-mais" className="p-7 hover:bg-neutral-800">
+              Conheça mais
             </Link>
           </li>
         </ul>
